@@ -1,0 +1,161 @@
+* {
+    margin:0px;
+    padding: 0px;
+}
+.container {
+    background-color: #202124;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forn {
+    background-color: transparent;
+    height: 450px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+} 
+.account {
+    border-radius: 30px 0px 0px 30px;
+    height: 300px;
+    width: 200px;
+    background-color: #a50a66;
+    display: flex;
+    justify-content: center;
+}
+.icon img {
+    margin: 15px;
+    height: 120px;
+}
+.text {
+    text-align: center;
+}
+.text h2 {
+    font-family: 'Outfit';
+    color: #e6ecff;
+    padding-bottom: 25px;
+}
+.text h6 {
+    color: #ffffff; 
+    font-family: Arial, Helvetica, sans-serif;
+}   
+.text a {
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff; 
+    font-size: 18px;
+    border-bottom:1px solid #ffffff;
+}
+.formulario {
+    border-radius: 0px 30px 30px 0px;
+    background-color: #d961ba;
+    height: 300px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nome {
+    border-radius: 4px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    margin-bottom: 25px;
+    border:1px solid #a50a66;
+}
+.nome img {
+    height: 20px;
+    padding-right: 17px;
+}
+.nome input {
+    outline: none;
+    border: none;
+    height: 25px;
+    width: 100px;
+    padding-right: 5px;
+}
+.senha {
+    border-radius: 4px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    border:1px solid #a50a66;
+}
+.senha input {
+    outline: none;
+    border: none;
+    height: 25px;
+    width: 100px;
+    padding-right: 5px;
+}
+.senha img {
+    height: 20px;
+    padding-right: 17px;
+}
+.butao {
+    height: 75px;
+    width: 200px;
+    align-items: flex-end;
+    justify-content: flex-end;
+    display: flex;
+}
+.butao input {
+    margin-right: 20px;
+    border: none ;
+    font-family: 'Outfit';
+    color: #7a2856;
+    font-weight: 900;
+    background-color: #231f20;
+    border-radius:30px;
+    height: 43px;
+    width:100px;
+}
+@media only screen and (min-width:340px) and (max-width: 550px) {
+    .forn {
+        width: 315px;
+        height: 350px;
+    }
+    .account {
+        width: 140px;
+    }
+    .formulario {
+        width: 180px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .forn {
+        width: 280px;
+    }
+    .formulario,
+    .con { 
+        width: 140px;
+    }
+    .butao {
+        display: flex;
+        justify-content: center;
+        width: 140px;
+    }
+    .butao input {
+       margin: 0px;
+    }
+    .nome,
+    .senha {
+        width: 133px;
+    }
+    .nome img ,
+    .senha img {
+        padding-right: 10px;
+    }
+    .nome input,
+    .senha input {
+        width: 90px;
+    }
+}
